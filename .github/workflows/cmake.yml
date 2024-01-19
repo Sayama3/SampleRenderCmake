@@ -22,6 +22,7 @@ jobs:
         include:
           - os: windows-latest
             compiler: msvc
+            build_type: [Debug, Release]
       fail-fast: false
 
     # The CMake configure and build commands are platform agnostic and should work equally well on Windows or Mac.
